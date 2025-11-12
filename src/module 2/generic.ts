@@ -6,6 +6,8 @@ const friends: GenericArray<string> = ["shafi", "Hasib", "Ali", "Mehedi", "Rumon
 
 const futureWife : GenericArray<string> = ["BatNight","KillerMan", "SadaFul"]
 
+// generic with type alias
+
 type She ={
 
   name: string,
