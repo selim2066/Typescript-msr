@@ -6,7 +6,7 @@ const userRole = {
 }
 
 const canEdit = (role : typeof userRole)=>{
-  
+
 }
 
 
@@ -76,5 +76,5 @@ const canEditt = (role: (typeof UserRoles)[keyof typeof UserRoles]) => {
   } else return false;
 };
 
-const isEditPermissable = canEdit(UserRoles.Admin);
+const isEditPermissable = canEditt(UserRoles.Admin);
 console.log(isEditPermissable);
