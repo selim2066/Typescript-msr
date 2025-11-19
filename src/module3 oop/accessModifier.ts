@@ -26,9 +26,9 @@ class StudentBankAccount extends BankAccount {
   }
 }
 
-const mezbaBhaiAccount = new BankAccount(111, "Mezba", 20);
+const selimAccount = new BankAccount(111, "Mezba", 20);
 
-mezbaBhaiAccount.addBalance(100);
-mezbaBhaiAccount.addBalance(50);
+selimAccount.addBalance(100);
+selimAccount.addBalance(50);
 
-console.log(mezbaBhaiAccount);
+console.log(selimAccount);
